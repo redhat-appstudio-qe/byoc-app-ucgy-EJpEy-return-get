@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: bmif
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-rgay-tenant/byoc-app-ucgy/bmif@sha256:7b9e347eecdccb35cfa0047684da00a22d51e146c65899fcdaae29237c2ec561
         name: my-java-quarkus
         ports:
         - containerPort: 8081
